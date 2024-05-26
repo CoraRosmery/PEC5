@@ -1,0 +1,62 @@
+@charset "UTF-8";
+$primary-color: #003b4a;
+$secondary-color:rgb(241, 245, 249);
+$terciary-color:#ffff;
+$secondary-color-a: rgb(191, 12, 240);
+$font-stack:  'Montserrat Alternates', sans-serif;
+$footer-color: #4ba39380;
+$blockquote-color: rgba(255, 215, 0, 0.8);
+
+body.home {
+    background-image: url(/src/img/portada.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+body.home header {
+    background: transparent;
+}
+
+body.home main {
+    padding-top: calc(100vh - 850px);
+}
+
+body.home h1 {
+    font-size: 3rem;
+    line-height: 1;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+body.home a {
+    color: inherit;
+    border: none;
+}
+
+body.home nav ul {
+    padding-top: 1rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+body.home nav ul li {
+    font-size: 1.3rem;
+}
+
+body.home .home-logo {
+    margin-bottom: 30px;
+}
+
+body.home footer {
+    background-color: transparent;
+    font-weight: 500;
+}
+
+body.home footer .copyright a {
+    color: $blockquote-color;
+}
+
+body.home footer a:hover {
+    color: $blockquote-color;
+}

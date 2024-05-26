@@ -1,0 +1,51 @@
+@charset "UTF-8";
+$primary-color: #003b4a;
+$secondary-color:rgb(241, 245, 249);
+$terciary-color:#ffff;
+$secondary-color-a: rgb(191, 12, 240);
+$font-stack:  'Montserrat Alternates', sans-serif;
+$footer-color: #4ba39380;
+$blockquote-color: rgba(255, 215, 0, 0.8);
+
+footer {
+  height: 130px;
+  padding: 30px 15px;
+  background-color: $secondary-color;
+  color: white;
+  font-size: 0.8rem;
+
+}
+
+footer p {
+  font-size: inherit;
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: inherit;
+  border: none;
+}
+
+footer a:hover {
+  border: none;
+  color: $blockquote-color;
+}
+
+footer ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+footer ul li:last-child {
+  padding-right: 0;
+}
+
+.home footer {
+  text-align: center;
+}
