@@ -8,11 +8,11 @@ $footer-color: #4ba39380;
 $blockquote-color: rgba(255, 215, 0, 0.8);
 
 footer {
-  height: 130px;
+
   padding: 30px 15px;
-  background-color: $secondary-color;
-  color: white;
+  background-color: $footer-color;
   font-size: 0.8rem;
+text-align: center;
 
 }
 

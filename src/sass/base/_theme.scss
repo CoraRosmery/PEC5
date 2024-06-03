@@ -10,7 +10,7 @@ $blockquote-color: rgba(255, 215, 0, 0.8);
 body {
     font-family: $font-stack;
     font-weight: 300;
-    color: $secondary-color;
+    color: $primary-color;
     line-height: 1.5;
 }
 main {
@@ -25,6 +25,30 @@ main {
     padding-left: 15px;
     width: 100%;
 }
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
 h1,
 h2 {
     font-weight: 700;
@@ -81,19 +105,16 @@ ul li {
 }
 
 figure {
-    width: 75%;
-    margin: 3rem auto;
+    width: 100%;
+    margin: 1rem auto;
 }
-
+/* Hace que el video sea responsive */
 figcaption {
     text-align: left;
     padding-top: .25rem;
     font-size: .75rem;
 }
 
-iframe.video-fluid {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
-    border: 0;
+iframe.video-fluid { 
+    aspect-ratio: 16/9; 
 }

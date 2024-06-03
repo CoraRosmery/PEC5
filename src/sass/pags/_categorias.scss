@@ -1,0 +1,60 @@
+// Define el ancho máximo para la página
+$max-page-width: 1200px;
+
+html, body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    max-width: $max-page-width;
+    margin: 0 auto;
+}
+.intro h1,
+.intro p,
+.section2 h2,
+.section2 h3,
+.section2 p {
+    font-size: clamp(14px, 2vw, 24px); 
+}
+.container {
+    max-width: 100%; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+.intro, .section2 {
+    width: 100%;
+    max-width: $max-page-width; 
+    margin: 0 auto;
+}
+
+.intro p, .section2 p {
+    font-size: clamp(14px, 2vw, 18px); 
+}
+
+.video {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0; 
+   
+}
+
+.video iframe {
+    width: 100%; 
+
+
+}
+
+.discos {
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+  
+    }
+  }

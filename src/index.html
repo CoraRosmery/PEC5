@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Perota</title>
+
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="home">
     <include src="src/comons/headerHome.html"></include>
-
+    
     <main>
-        <div class="container">
-            <!-- <img src="img/portada.jpeg" class="home-logo" alt="Perota" width="500" height="195"> -->
-            <h1>La relación entre música y alma <span lang="en">alternative</span> PerotaChingó</h1>
+        <div class="clipPath">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./img/img_resolution/portada_movil.png">
+                <source media="(max-width: 900px)" srcset="./img/img_resolution/portada_tablet.png">
+                <img src="./img/portada.jpeg"
+                     srcset="
+                        ./img/img_resolution/portada_movil.png 320w,
+                        ./img/img_resolution/portada_tablet.png 480w,
+                        ./img/portada.jpeg 3200w"
+                     sizes="(max-width: 320px) 280px,
+                            (max-width: 480px) 440px,
+                            100vw"
+                     alt="PerotaChingó"
+                     class="responsive-image">
+            </picture>
+            <h1 class="title_home">La relación entre música y alma <span lang="en">alternative</span> </h1>
+            <h2>PerotaChingó</h2>
+        </div>
+        <div class="naceunamadre">
+            <h3>Canción estreno: Nace una madre</h3>
+            <div><a href="https://open.spotify.com/intl-es/album/286YluPG1sKO5CIu5rLXU7"><img src="/src/img/img_resolution/svg/naceunamadre.svg"></a></div>
         </div>
     </main>
-
+    
     <include src="src/comons/footer.html"></include>
-
-    <script src="./app.js"></script>
 </body>
 </html>
