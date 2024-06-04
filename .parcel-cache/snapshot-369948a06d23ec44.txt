@@ -12,7 +12,7 @@
 122C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\tar\node_modules\minipass\README.md133611962669264192 0
 128C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@swc\helpers\esm\_wrap_async_generator.js133611951990231900 0
 128C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-sass\src\libsass\src\utf8_string.cpp133611962682289953 0
-86C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\package.json133612080486398808 0
+86C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\package.json133620070622824615 0
 102C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\safe-regex-test133611973066595767 1
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\5\ToInt32.js133611973090970679 0
 104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\has-flag\index.js133611951960828119 0
@@ -24,7 +24,7 @@
 112C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\safe-regex-test\.eslintrc133611973061929456 0
 106C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\unique-slug\LICENSE133611962660891408 0
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\hard-rejection\readme.md133611962671893060 0
-95C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\src\presentacion.html133620057476727861 0
+95C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\src\presentacion.html133620070353603405 0
 96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\is-number133611951961782513 1
 107C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\fp\entries.js133611962687669974 0
 91C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\package-lock.json133612080487892436 0
@@ -39,7 +39,7 @@
 108C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\yargs\locales\it.json133611962679516758 0
 96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\.bin\svgo133611952005591361 0
 125C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2018\GetOwnPropertyKeys.js133611973078488940 0
-78C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist133620065099867074 1
+78C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist133620071457709211 1
 128C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2023\IsNoTearConfiguration.js133611973081611784 0
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\weak-lru-cache\README.md133611951965709566 0
 139C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\features\indeterminate-checkbox.js133611951997566863 0
@@ -108,7 +108,7 @@
 94C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\js-yaml133611951973820299 1
 101C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\y18n\README.md133611962673135453 0
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\signal-exit\package.json133611962666819285 0
-87C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\src\js\app.js133620064888669406 0
+87C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\src\js\app.js133620071112831651 0
 126C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-gyp\gyp\pylib\gyp\easy_xml_test.py133611962682077454 0
 128C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py133611962683250033 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@swc\helpers\esm\_instanceof.js133611951987440180 0
@@ -1187,7 +1187,7 @@
 95C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\path-key133611962669264192 1
 158C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\generator\index.js133611951978750781 0
 106C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\socks\.eslintrc.cjs133611962668449430 0
-82C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\img133620065082456615 1
+82C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\img133620071441496168 1
 141C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-gyp\gyp\tools\Xcode\Specifications\gyp.xclangspec133611962684049577 0
 134C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-sass\src\libsass\script\ci-report-coverage133611962675890011 0
 127C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2019\ValidateAtomicAccess.js133611973093775999 0
@@ -1393,7 +1393,7 @@
 95C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\read-pkg133611962671644291 1
 124C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\yargs\build\lib\utils\which-module.js133611962678241525 0
 112C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-define-property\.nycrc133611973062743496 0
-100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\festival.5f1eba17.jpg133620065082429689 0
+100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\festival.5f1eba17.jpg133620071441484014 0
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\is-weakref\test\index.js133611973065435378 0
 120C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\rimraf\dist\esm\retry-busy.js.map133611973071963409 0
 116C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\string.prototype.trim\auto.js133611973064737028 0
@@ -2417,7 +2417,6 @@
 116C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\weak-lru-cache\LRFUExpirer.js133611951962658535 0
 113C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2024\Invoke.js133611973080275129 0
 101C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\posthtml\types133611951964060410 1
-107C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.950e2702.js.map133620065099867074 0
 123C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2021\FlattenIntoArray.js133611973077619419 0
 125C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\sprintf-js\dist\angular-sprintf.min.js133611962669147974 0
 117C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\semver\functions\prerelease.js133611951974209297 0
@@ -2674,7 +2673,7 @@
 109C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\ip-address\src\ipv6.ts133611962680011267 0
 114C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\react-error-overlay\LICENSE133611951958063886 0
 150C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\resolve\test\resolver\multirepo\packages\package-a\package.json133611962681696893 0
-101C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\index.8d88d6e8.css.map133620065099867074 0
+101C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\index.8d88d6e8.css.map133620071457709211 0
 122C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lmdb\dependencies\lz4\lib\README.md133611951987338968 0
 124C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\typed-array-byte-offset\test\index.js133611973064901914 0
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@swc\helpers\esm\_get.js133611951987064841 0
@@ -3028,7 +3027,7 @@
 122C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\svgo\plugins\convertStyleToAttrs.js133611951979095801 0
 105C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\fp\isNaN.js133611962689890362 0
 131C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\has-property-descriptors\.github\FUNDING.yml133611973067002013 0
-97C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\index.8d88d6e8.css133620065099784244 0
+97C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\index.8d88d6e8.css133620071457595151 0
 115C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\posthtml\types\posthtml.d.ts133611951964295013 0
 136C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\htmlnano\lib\modules\normalizeAttributeValues.mjs133611951983010040 0
 123C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2024\BigInt\remainder.js133611973086778478 0
@@ -4192,7 +4191,7 @@
 107C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\read-pkg-up\index.js133611962668529515 0
 144C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\package.json133611951977036585 0
 138C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\rimraf\node_modules\minipass\dist\commonjs\index.js133611973065159434 0
-90C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\discos.html133620065099784244 0
+90C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\discos.html133620071457595151 0
 122C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\es-abstract\2015\GetGlobalObject.js133611973078001618 0
 142C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\rimraf\node_modules\minipass\dist\commonjs\index.js.map133611973069185560 0
 111C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\read-pkg-up\package.json133611962669599275 0
@@ -5041,7 +5040,7 @@
 155C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\function133611951986198425 1
 116C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\posthtml-include\node_modules133612080480366934 1
 116C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\posthtml-include\package.json133612080483632746 0
-104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\naceunamadre.fd5495ea.svg133620065099224882 0
+104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\naceunamadre.fd5495ea.svg133620071456920641 0
 113C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\posthtml-include\README.md133612080483643475 0
 130C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-gyp\node_modules\@npmcli\fs\LICENSE.md133611962678305330 0
 137C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\posthtml-include\node_modules\posthtml-parser\dist133612080480988436 1
@@ -5973,7 +5972,7 @@
 121C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-sass\src\sass_types\boolean.h133611962683049458 0
 110C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@isaacs\cliui\build\lib133611973063986110 1
 106C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lru-cache\README.md133611962673670885 0
-94C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\categorias.html133620065099784244 0
+94C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\categorias.html133620071457595151 0
 121C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-sass\src\sass_types\color.cpp133611962679844432 0
 103C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\fp\map.js133611962690587487 0
 119C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\node-sass\src\sass_types\color.h133611962683425105 0
@@ -7377,7 +7376,7 @@
 105C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\_hashGet.js133611962683555518 0
 105C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\_hashHas.js133611962683580996 0
 108C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\get-intrinsic\LICENSE133611973063595761 0
-99C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\perota3.16c8f8c0.jpg133620065082429689 0
+99C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\perota3.16c8f8c0.jpg133620071441484014 0
 108C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\_hasUnicode.js133611962683638843 0
 112C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\_hasUnicodeWord.js133611962683638843 0
 112C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lodash\_initCloneArray.js133611962683667990 0
@@ -8005,7 +8004,7 @@
 129C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@babel\helper-validator-identifier\LICENSE133611951958398686 0
 112C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\cacache\lib\content\rm.js133611962676326165 0
 132C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133611951958900727 0
-103C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\logo_tablet.5724c809.png133620065098116254 0
+103C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\logo_tablet.5724c809.png133620071455766680 0
 136C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\csso\node_modules\css-tree\lib\tokenizer\index.js133611951990762618 0
 129C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lmdb\node_modules\node-addon-api\nothing.c133611951957971149 0
 140C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\lmdb\node_modules\node-addon-api\package-support.json133611951969981406 0
@@ -8882,7 +8881,7 @@
 127C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@swc\helpers\_\_class_private_field_init133611951991495542 1
 106C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\globalthis\index.js133611973067276587 0
 110C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\globalthis\package.json133611973069134760 0
-106C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\portada_tablet.29bb7d95.png133620065082442131 0
+106C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\portada_tablet.29bb7d95.png133620071441493103 0
 109C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\globalthis\polyfill.js133611973068323930 0
 102C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\globalthis\test133611973068844318 1
 103C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\globals\index.js133611951958967630 0
@@ -11712,7 +11711,7 @@
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\TL.js133611952003690846 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\TM.js133611952003705566 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\TO.js133611952003705566 0
-104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\Logo_desktop.2b9291c0.png133620065082278105 0
+104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\Logo_desktop.2b9291c0.png133620071441397714 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\TR.js133611952003705566 0
 142C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@swc\helpers\src\_class_static_private_field_update.mjs133611951995589994 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\TT.js133611952003834245 0
@@ -11725,7 +11724,7 @@
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\YE.js133611952005041043 0
 153C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\at-rules.json133611951964844045 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\ZA.js133611952005041043 0
-100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\portada.f62d529e.jpeg133620065098116254 0
+100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\portada.f62d529e.jpeg133620071455783920 0
 118C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\regions\ZW.js133611952005041043 0
 120C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\features\aac.js133611951963590206 0
 132C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\caniuse-lite\data\features\abortcontroller.js133611951964425834 0
@@ -12175,7 +12174,7 @@
 122C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\cacache\node_modules\glob\README.md133611962671343058 0
 131C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\cacache\node_modules\brace-expansion\.github133611962669477959 1
 132C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\cacache\node_modules\brace-expansion\index.js133611962663381191 0
-104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\PEROTA LOOGO.3a708005.png133620065098116254 0
+104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\PEROTA LOOGO.3a708005.png133620071455766680 0
 119C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@swc\helpers\_\_array_with_holes133611951990565047 1
 131C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\cacache\node_modules\brace-expansion\LICENSE133611962660866604 0
 155C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\index.js133611951979358176 0
@@ -12748,7 +12747,7 @@
 123C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\transformer-svg\package.json133611951966501260 0
 136C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\transformer-svg\test\parseFuncIRI.test.js133611951964654466 0
 130C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\transformer-svg\src\dependencies.js133611951961514482 0
-96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\bibliografia.html133620065099784244 0
+96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\bibliografia.html133620071457595151 0
 124C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\transformer-svg\lib\inline.js133611951962855069 0
 129C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\transformer-react-refresh-wrap\lib133611951963286349 1
 133C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE133611951958218779 0
@@ -13159,7 +13158,6 @@
 151C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist\csstree.min.js133611951974893033 0
 147C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\data\patch.json133611951986639271 0
 137C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib133611951974364082 1
-103C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.950e2702.js133620065099784244 0
 146C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-svgo\node_modules\css-select\package.json133611951968958532 0
 153C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\attributes.d.ts133611951972631867 0
 157C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\attributes.d.ts.map133611951969509543 0
@@ -13658,12 +13656,14 @@
 101C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\.bin\run-s.ps1133611973094873660 0
 100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\.bin\svgo.cmd133611952005591361 0
 114C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\node_modules\.bin\update-browserslist-db133611952005604069 0
-97C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\icono.a3c6e759.png133620065082429689 0
-89C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\index.html133620065099784244 0
-96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\logo.8f97db40.png133620065082429689 0
-99C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\perota1.e11a2ee8.jpg133620065098116254 0
-100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\perotaqq.7ae9e689.jpg133620065082442131 0
-107C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\portada_movil_1.6576bc5e.png133620065098116254 0
-104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.4f1b5310.svg133620065099224882 0
-96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.html133620065099784244 0
-94C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\img\perota.jpeg133620065082391771 0
+97C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\icono.a3c6e759.png133620071441484014 0
+89C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\index.html133620071457595151 0
+96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\logo.8f97db40.png133620071441467840 0
+99C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\perota1.e11a2ee8.jpg133620071455766680 0
+100C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\perotaqq.7ae9e689.jpg133620071441488930 0
+107C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\portada_movil_1.6576bc5e.png133620071455783920 0
+103C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.26409696.js133620071457595151 0
+107C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.26409696.js.map133620071457709211 0
+104C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.4f1b5310.svg133620071456920641 0
+96C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\presentacion.html133620071457595151 0
+94C:\Users\yanin\Desktop\UOC\PROYECTOS UOC\M4_HTML_CSS\SegundoSemestre\PEC5\dist\img\perota.jpeg133620071441467840 0
