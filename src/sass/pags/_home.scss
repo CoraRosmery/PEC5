@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+// Variables
 $primary-color: #003b4a;
 $secondary-color: #f1f5f9;
 $terciary-color: #ffff;
@@ -6,79 +8,164 @@ $secondary-color-a: rgb(191, 12, 240);
 $font-stack: 'Montserrat Alternates', sans-serif;
 $footer-color: #4ba39380;
 $blockquote-color: rgba(255, 215, 0, 0.8);
-$img-color:#C4D5CD;
+$img-color: #C4D5CD;
 
 // Breakpoints
 $breakpoint-small: 600px;
 $breakpoint-medium: 900px;
 $breakpoint-large: 1200px;
 
-body.home {
-  /*background-image*/
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  text-align: center;
-  background: linear-gradient(to bottom, $primary-color, $img-color, $img-color,$terciary-color, $terciary-color);
-  opacity: 0.7;
+// Mixins
+@mixin responsive-font-size($min-size, $max-size) {
+  font-size: clamp($min-size, calc(0.875rem + 2vw), $max-size);
 }
 
-body.home header {
-  background: transparent;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body.home main {
-  padding-top: calc(100vh - 850px);
+@mixin fade-in($duration: 1.5s) {
+  animation-name: fadeIn;
+  animation-duration: $duration;
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
 
-body.home h1 {
-  font-size: clamp(1.5rem, calc(0.875rem + 2vw), 4rem);
-  line-height: 1;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+// Global Styles
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  &.home {
+    background: linear-gradient(to bottom, $primary-color, $img-color, $img-color, $terciary-color, $terciary-color);
+    opacity: 0.7;
+    header {
+      background: transparent;
+    }
+    main {
+      padding-top: calc(100vh - 850px);
+    }
+    h1 {
+      @include responsive-font-size(1.5rem, 4rem);
+      line-height: 1;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    }
+    nav ul {
+      padding-top: 0.5rem;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    a {
+      color: inherit;
+      border: none;
+    }
+    footer {
+      background-color: transparent;
+      font-weight: 500;
+      .copyright a {
+        color: $blockquote-color;
+      }
+      a:hover {
+        color: $blockquote-color;
+      }
+    }
+    .home-logo {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .title_home {
   color: $terciary-color;
-  font-size: clamp(1.25rem, calc(0.875rem + 2vw), 3rem);
+  @include responsive-font-size(1.25rem, 3rem);
 }
 
-body.home a {
-  color: inherit;
-  border: none;
+// Slideshow Styles
+.slideshow-container {
+  position: relative;
+  margin: auto;
 }
 
-body.home nav ul {
-  padding-top: 0.5rem;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-
-body.home .home-logo {
-  margin-bottom: 30px;
-}
-
-body.home footer {
-  background-color: transparent;
-  font-weight: 500;
-}
-
-body.home footer .copyright a {
-  color: $blockquote-color;
-}
-
-body.home footer a:hover {
-  color: $blockquote-color;
-}
-
-// Imagen principal clip path
-
-picture {
-  .responsive-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.mySlides {
+  &.fade {
+    display: none;
   }
+}
+
+.prev, .next {
+  @include flex-center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  user-select: none;
+  &.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  &.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+  }
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.text, .numbertext {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  &.numbertext {
+    font-size: 12px;
+    top: 0;
+  }
+  &.text {
+    bottom: 8px;
+  }
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  &.active, &:hover {
+    background-color: #717171;
+  }
+}
+
+@media (min-width: $breakpoint-large) {
+  body.home h1 {
+    font-size: 4rem;
+  }
+}
+
+// Imagen Principal Clip Path
+picture .responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .clipPath {
@@ -91,122 +178,29 @@ picture {
       4% 53%, 15% 65%, 17% 55%, 0% 49%, 2% 42%, 11% 38%, 0% 37%
     );
   }
-
   position: relative;
   height: 100vh;
   overflow: hidden;
-
   h1 {
     position: absolute;
     top: 30%;
     left: 15%;
     width: 70%;
-    font-size: clamp(1rem, calc(0.875rem + 2vw), 2.5rem);
+    @include responsive-font-size(1rem, 2.5rem);
   }
 }
 
-@media (min-width: $breakpoint-large) {
-  body.home h1 {
-    font-size: 4rem;
-  }
-}
-
-.slideshow-container {
-
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  &.fade {
-    display: none;
-  }
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: .4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-// Calendario y citas
-
+// Calendario y Citas
 .tour a {
   color: inherit;
   text-decoration: none;
   transition: color 0.3s;
+  &:hover {
+    color: var(--contrast-color);
+  }
 }
 
-.tour a:hover {
-  color: var(--contrast-color);
-}
-
-.info button:hover,
-.boton:hover {
+.info button:hover, .boton:hover {
   background-color: var(--contrast-color);
   color: white;
 }
@@ -218,30 +212,22 @@ blockquote {
   border-left: 4px solid var(--blockquote-color);
   font-size: 0.9rem;
 }
-//Presentación//
+
+// Animaciones
 body img {
-  animation: fadeIn 8s ease;
+  @include fade-in(8s);
 }
 
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
 img {
   display: block;
-  margin: 0 auto; 
-  max-width: 100%; 
-  height: auto; 
-}
-.naceunamadre img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width:40rem;
+  margin: 0 auto;
+  max-width: 100%;
   height: auto;
-  max-width: 100%; 
+}
+
+.naceunamadre img {
+  @include flex-center;
+  width: 40rem;
+  height: auto;
+  max-width: 100%;
 }

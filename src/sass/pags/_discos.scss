@@ -1,73 +1,81 @@
 @charset "UTF-8";
+
+// Variables
 $primary-color: #003b4a;
-$secondary-color:rgb(241, 245, 249);
-$terciary-color:#ffff;
+$secondary-color: rgb(241, 245, 249);
+$terciary-color: #ffff;
 $secondary-color-a: rgb(191, 12, 240);
-$font-stack:  'Montserrat Alternates', sans-serif;
+$font-stack: 'Montserrat Alternates', sans-serif;
 $footer-color: #4ba39380;
 $blockquote-color: rgba(255, 215, 0, 0.8);
 
+// Mixins
+@mixin responsive-font-size($min-size, $max-size) {
+  font-size: clamp($min-size, calc(0.875rem + 2vw), $max-size);
+}
 
+// Global Styles
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Table Styles
 .table-fluid {
-    width: 100%;
-    overflow-x: auto;
-    margin-top: 30px;
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 30px;
 }
 
 table {
-    width: 100%;
-    border-spacing: 0;
-    border-collapse: collapse;
-}
-
-caption {
-    font-size: 1.3rem;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  caption {
+    @include responsive-font-size(1.3rem, 1.3rem);
     border-top: 1px solid $primary-color;
     font-weight: 700;
     padding: 15px;
+  }
 }
 
-td,
-th {
-    padding: 0.5rem;
-    font-size: 1.1rem;
-}
-
-td,
-th {
-    vertical-align: bottom;
-    text-align: left;
+td, th {
+  padding: 0.5rem;
+  @include responsive-font-size(1.1rem, 1.1rem);
+  vertical-align: bottom;
+  text-align: left;
 }
 
 th[scope="col"]:first-of-type {
-    text-align: left;
+  text-align: left;
 }
 
 th[scope="col"] {
-    font-weight: normal;
-    font-size: 1rem;
+  font-weight: normal;
+  @include responsive-font-size(1rem, 1rem);
 }
 
 th[scope="row"] {
-    font-weight: bold;
-    font-size: 1.4rem;
-    text-align: left;
+  font-weight: bold;
+  @include responsive-font-size(1.4rem, 1.4rem);
+  text-align: left;
 }
 
 thead tr {
-    border-top: 1px solid $primary-color;
-    border-bottom: 1px solid $primary-color;
+  border-top: 1px solid $primary-color;
+  border-bottom: 1px solid $primary-color;
 }
 
 tbody tr:nth-child(odd) {
-    background-color: $blockquote-color;
+  background-color: $blockquote-color;
 }
 
 tfoot {
-    border-bottom: 1px solid $primary-color;
-}
-
-tfoot td {
+  border-bottom: 1px solid $primary-color;
+  td {
     text-align: left;
-    font-size: 0.8rem;
+    @include responsive-font-size(0.8rem, 0.8rem);
+  }
 }
