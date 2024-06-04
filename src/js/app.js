@@ -1,10 +1,9 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-
-
 // Next/previous controls
 function plusSlides(n) {
+  console.log(n)
   showSlides(slideIndex += n);
 }
 
@@ -14,8 +13,6 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  console.log(n)
-
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
