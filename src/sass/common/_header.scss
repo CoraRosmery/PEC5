@@ -13,14 +13,14 @@ header {
   padding-bottom: 15px;
   background: url("/src/img/portada.webp") no-repeat 50% 50%;
   background-size: cover;
-  padding: 15px;
+  text-align: center;  
 }
 
 header .container {
   background: $primary-color;
   color: $secondary-color;
   max-width: 500px;
-  text-align: center;
+  margin: 0 auto; 
   padding: 10px;
 }
 
@@ -69,4 +69,23 @@ nav li.active {
 
 nav li.active a:hover {
   color: inherit;
+}
+//Menu en línea//
+.menu, .container, nav, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+  color: black;
 }

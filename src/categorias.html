@@ -4,12 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categorias | Perota Chingò</title>
-    <meta name="description" content="Detalles del grupo y discografia">
+    <title>Presentación | Perota Chingò</title>
+    <meta name="description" content="Explora y no te pierdas detalle de tus artistas de la escena.">
+    <!-- Corrección recursos que bloqueaban renderización -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Preload and async load de Google Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"></noscript>
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet"></noscript>
 </head>
 
 <body>
@@ -25,15 +33,11 @@
                     <a href="./discos.html" class="boton">Más detalles</a>
                 </div>
 
-                <!-- <div class="video">
-                    <figure>
-                        <iframe class="reproductor" loading="lazy" height="305" src="https://www.youtube.com/embed/_aIuna5a8Dc?si=_-HGWfnX1tyfHr0w" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <figcaption>Rie Chinito, 2011</figcaption>
-                    </figure>
-                </div> -->
                 <div class="contenedor">
-                    <div class="reproductor" data-id="_aIuna5a8Dc" width="560" height="315"></div>
-                  </div>
+                    <div class="reproductor" data-id="_aIuna5a8Dc">
+                        <img class="imagen-previa" src="//i.ytimg.com/vi/_aIuna5a8Dc/hqdefault.webp" loading="lazy" width="480" height="270" alt="Imagen previa del video">
+                    </div>
+                </div>                
             </section>
             
             <section class="section2">
@@ -52,26 +56,23 @@
                 <section class="discos">  
                     <h2>Emblemáticos</h2>
                     <h3>Descripción:</h3>
-                    <p>La banda independiente de Buenosloa Aires Perotá Chingó participó en la 24 edición del Festival Mil·lenni. Las amigas Julia Ortiz y Lola Aguirre actuaron en el Palau de la Música Catalana el viernes 14 de abril de 2023. Con más de quinientos conciertos a sus espaldas y con temas como <a href="https://open.spotify.com/track/2urvQqG10v0AysBX1i8ntz"> “La Complicidad”,</a> <a href="https://open.spotify.com/track/1BYz7OhBUeMwjQsIDaVQv5"> “Seres Extraños”</a> o <a href="https://open.spotify.com/track/1Oyk0M2MYRqM9CpGU8A3gc">Canción Pequeña”,</a> Perotá Chingó tenía ya un recorrido de 11 años en los que se habían encontrado a artistas de la talla de Djavan, Lenine, Chico César, o Fernando Cabrera, entre otros.</p>
-                    <img src="/src/img/festival.webp" loading="lazy" style="width: 95%;" alt="discos">
-
+                    <p>La banda independiente de Buenos Aires Perotá Chingó participó en la 24 edición del Festival Mil·lenni. Las amigas Julia Ortiz y Lola Aguirre actuaron en el Palau de la Música Catalana el viernes 14 de abril de 2023. Con más de quinientos conciertos a sus espaldas y con temas como <a href="https://open.spotify.com/track/2urvQqG10v0AysBX1i8ntz">“La Complicidad”,</a> <a href="https://open.spotify.com/track/1BYz7OhBUeMwjQsIDaVQv5">“Seres Extraños”</a> o <a href="https://open.spotify.com/track/1Oyk0M2MYRqM9CpGU8A3gc">Canción Pequeña”,</a> Perotá Chingó tenía ya un recorrido de 11 años en los que se habían encontrado a artistas de la talla de Djavan, Lenine, Chico César, o Fernando Cabrera, entre otros.</p>
+                    <img src="/src/img/festival.webp" loading="lazy" width="600" height="500" style="max-width: 100%; height: auto;" alt="discos">
                 </section>
                 
                 <section>  
                     <h2>Conclusión</h2>
-                    <h3>Descripción:</h3><p> Después de su éxito en Youtube, Perotá Chingó continuó su trayectoria musical, cautivando a audiencias con su estilo único y su energía en el escenario. Con cada concierto, continúan explorando nuevas fronteras musicales y compartiendo su pasión por la música con el mundo. Su legado perdura como un testimonio de la creatividad y el espíritu artístico que inspira a generaciones de fans en todo el mundo. </p>
+                    <h3>Descripción:</h3>
+                    <p>Después de su éxito en Youtube, Perotá Chingó continuó su trayectoria musical, cautivando a audiencias con su estilo único y su energía en el escenario. Con cada concierto, continúan explorando nuevas fronteras musicales y compartiendo su pasión por la música con el mundo. Su legado perdura como un testimonio de la creatividad y el espíritu artístico que inspira a generaciones de fans en todo el mundo.</p>
                 </section>
-                <!-- <div class="video" style="width: 100%;">
-                    <figure style="width: 100%; margin: 0;">
-                        <iframe  height="305" loading="lazy" src="https://www.youtube.com/embed/fFrtPt2I9i4?si=_0YqkPE6NBJg_cc4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </figure>
-                </div> -->
+                
                 <div class="contenedor">
-                    <div class="reproductor" data-id="fFrtPt2I9i4"></div>
-                  </div>
+                    <div class="reproductor" data-id="fFrtPt2I9i4">
+                        <img class="imagen-previa" src="//i.ytimg.com/vi/fFrtPt2I9i4/hqdefault.webp" loading="lazy" width="480" height="270" alt="Imagen previa del video">
+                    </div>
+                </div>                
             </section>
         </div>
-    
     </main>
     <include src="src/comons/footer.html"></include>
     <script src="js/videos.js" defer></script>
