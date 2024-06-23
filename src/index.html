@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Presentación|Perota Chingò</title>
-        <meta name="description" content="Explora y no te pierdas detalle de tus artistas de ka escena.">
-        <!-- Preconnect to Google Fonts -->
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación | Perota Chingò</title>
+    <meta name="description" content="Explora y no te pierdas detalle de tus artistas de la escena.">
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Preload and async load the Google Fonts -->
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" as="style">
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-        <noscript><link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"></noscript>
-        
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" as="style">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-        <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet"></noscript>
-      
-    </head>
-    <!--corrección tamaño de img-->
-<body class="home"> 
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"></noscript>
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet"></noscript>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="home">
     <include src="src/comons/headerHome.html"></include>
     <main>
-    <div class="clipPath">
-        <picture>
-            <source media="(max-width: 600px)" srcset="./img/img_resolution/portada_movil.webp" loading="lazy">
-            <source media="(max-width: 900px)" srcset="./img/img_resolution/portada_tablet.webp" loading="lazy">
-            <img src="./img/img_resolution/portada_desk.webp" loading="lazy"
-                 srcset="
-                    ./img/img_resolution/portada_movil.webp 320w, 
-                    ./img/img_resolution/portada_tablet.webp 480w,
-                    ./img/img_resolution/portada_desk.webp 3200w"
-                 sizes="(max-width: 320px) 280px,
-                        (max-width: 480px) 440px,
-                        100vw"
-                 alt="Perotá Chingó"
-                 class="responsive-image">
-        </picture>
-            <h1 class="title_home">La relación entre música y alma <span lang="en">alternative</span> </h1>
+        <div class="clipPath">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./img/img_resolution/portada_movil.webp" loading="lazy">
+                <source media="(max-width: 900px)" srcset="./img/img_resolution/portada_tablet.webp" loading="lazy">
+                <img src="./img/img_resolution/portada_desk.webp" loading="lazy"
+                     srcset="
+                        ./img/img_resolution/portada_movil.webp 320w, 
+                        ./img/img_resolution/portada_tablet.webp 480w,
+                        ./img/img_resolution/portada_desk.webp 3200w"
+                     sizes="(max-width: 320px) 280px,
+                            (max-width: 480px) 440px,
+                            100vw"
+                     alt="Perotá Chingó"
+                     class="responsive-image">
+            </picture>
+            <h1 class="title_home">La relación entre música y alma <span lang="en">alternative</span></h1>
             <p><b>PerotaChingó</b></p>
-     </div>
+        </div>
+        
         <div class="naceunamadre">
             <h3>Canción estreno: Nace una madre</h3>
-            <div><a href="https://open.spotify.com/intl-es/album/286YluPG1sKO5CIu5rLXU7"><img src="/src/img/img_resolution/svg/naceunamadre.svg" loading="lazy" width="100%" height="60%" alt="Ilustración de una amapola roja"></a></div>
+            <div>
+                <a href="https://open.spotify.com/intl-es/album/286YluPG1sKO5CIu5rLXU7">
+                    <img src="/src/img/img_resolution/svg/naceunamadre.svg" loading="lazy" width="100%" height="60%" alt="Ilustración de una amapola roja">
+                </a>
+            </div>
         </div>
     </main>
     
