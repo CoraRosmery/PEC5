@@ -45,13 +45,10 @@ body {
   box-sizing: border-box;
   &.home {
     margin: auto;
-    background: linear-gradient(to bottom, $primary-color, $img-color, $img-color, $terciary-color, $terciary-color);
+    background: linear-gradient(to bottom, $primary-color, $primary-color, $img-color, $terciary-color, $terciary-color);
     opacity: 0.8;
     header {
       background: transparent;
-    }
-    main {
-      padding-top: calc(100vh - 850px);
     }
     h1 {
       @include responsive-font-size(1.5rem, 4rem);
