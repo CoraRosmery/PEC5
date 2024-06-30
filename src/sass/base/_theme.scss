@@ -3,12 +3,12 @@ $primary-color: #003b4a;
 $secondary-color:rgb(241, 245, 249);
 $terciary-color:#ffff;
 $secondary-color-a: rgb(191, 12, 240);
-$font-stack:  'Montserrat Alternates', sans-serif;
+// $font-stack:  'Montserrat Alternates', sans-serif;
 $footer-color: #4ba39380;
 $blockquote-color: rgba(255, 215, 0, 0.8);
 
 body {
-    font-family: $font-stack;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     color: $primary-color;
     line-height: 1.5;
@@ -17,6 +17,9 @@ main {
     padding-top: 50px;
     padding-bottom: 50px;
     min-height: calc(100vh - 310px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .container {
     margin-right: auto;
