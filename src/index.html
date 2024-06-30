@@ -22,15 +22,17 @@
     <main>
         <div class="clipPath">
             <picture>
-                <source media="(max-width: 600px)" srcset="./img/img_resolution/portada_movil.webp" loading="lazy">
-                <source media="(max-width: 900px)" srcset="./img/img_resolution/portada_tablet.webp" loading="lazy">
-                <img src="./img/img_resolution/portada_desk.webp" loading="lazy"
+                <source media="(max-width: 600px)" srcset="./img/img_resolution/portada_movil.webp">
+                <source media="(max-width: 900px)" srcset="./img/img_resolution/portada_tablet.webp">
+                <img src="./img/img_resolution/portada_desk.webp"
                      srcset="
                         ./img/img_resolution/portada_movil.webp 320w, 
                         ./img/img_resolution/portada_tablet.webp 480w,
                         ./img/img_resolution/portada_desk.webp 3200w"
-                     
-                     alt="Perotá Chingó"
+                        sizes="(max-width: 600px) 100vw,
+                        (max-width: 900px) 50vw,
+                        33vw"
+                     alt="Perotá Chingó" 
                      class="responsive-image">
             </picture>
             <h1 class="title_home">La relación entre música y alma <span lang="en">alternative</span></h1>
@@ -41,12 +43,12 @@
             <h3>Canción estreno: Nace una madre</h3>
             <div>
                 <a href="javascript:void(0);" data-href="https://open.spotify.com/intl-es/album/286YluPG1sKO5CIu5rLXU7" id="lazyLink">
-                    <img src="/src/img/img_resolution/svg/naceunamadre.svg" loading="lazy" width="100%" height="100%" alt="Ilustración de una amapola roja">
+                    <img src="/src/img/img_resolution/svg/naceunamadre.svg" loading="lazy" width="100" height="100" alt="Ilustración de una amapola roja">
                 </a>
             </div>
         </div>
     </main>
-    
+
     <include src="src/comons/footer.html"></include>
     <script src="js/index.js" defer></script>
 </body>
